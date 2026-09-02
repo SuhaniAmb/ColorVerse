@@ -1,16 +1,34 @@
-# React + Vite
+# 🎨 ColorVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ColorVerse is a modern and responsive color palette generator built with React, Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+Explore beautiful color palettes, search for palettes, save your favorite palettes, copy color codes, and switch between light and dark modes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎨 Browse beautiful color palettes
+- 🔍 Search palettes
+- ❤️ Save favorite palettes
+- 📋 Copy color codes to clipboard
+- 🔔 "Copied!" notification
+- 🌙 Light / Dark mode
+- 💾 Favorites saved using Local Storage
+- 📱 Fully responsive design
+- ⚡ Fast and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML
+- CSS
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/SuhaniAmb/ColorVerse.git
