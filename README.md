@@ -32,3 +32,52 @@ Explore beautiful color palettes, search for palettes, save your favorite palett
 
 ```bash
 git clone https://github.com/SuhaniAmb/ColorVerse.git
+```
+
+### Navigate to the project
+
+```bash
+cd ColorVerse
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal to view the application.
+
+## 📂 Project Structure
+
+```text
+ColorVerse/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── componants/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🌐 Live Demo
+
+Coming soon...
+
+## 👩‍💻 Author
+
+**Suhani Amb**
+
+GitHub: https://github.com/SuhaniAmb
