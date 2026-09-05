@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { categories } from "../data/palettes.jsx";
+import { categories } from "../data/Palettes.jsx";
 import { useState } from "react";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
 
