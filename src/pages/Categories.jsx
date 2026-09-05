@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../componants/Navbar"
 import { useNavigate } from "react-router-dom";
-import { categories } from "../data/palettes.jsx";
+import { categories } from "../data/Palettes.jsx";
 import { IoSearch } from "react-icons/io5";
 
 function Categories({search}){
