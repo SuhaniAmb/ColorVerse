@@ -38,7 +38,7 @@ function Navbar({ darkMode, setDarkMode, search, setSearch }) {
         Favorites
       </a>
 
-      <div className=" flex items-center border border-gray-200 md:px-5 px-1 sm:py-1 gap-2 sm:rounded-xl rounded-lg lg:w-[400px] md:w-[280px] w-[110px] ">
+      <div className=" flex items-center border border-gray-200 md:px-5 px-1 py-1 gap-2 sm:rounded-xl rounded-lg lg:w-[400px] md:w-[280px] w-[110px] ">
         <IoSearch className="text-black dark:text-white sm:ml-0 ml-1 shrink-0 sm:w-4 sm:h-4 w-2 h-2 " />
         <input
           type="text"
