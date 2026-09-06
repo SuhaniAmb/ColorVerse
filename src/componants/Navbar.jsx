@@ -11,35 +11,35 @@ function Navbar({ darkMode, setDarkMode, search, setSearch }) {
   const location = useLocation();
 
   return (
-    <nav className=" w-full flex justify-between items-center md:p-5 p-1 shadow-sm border-b border-gray-200 ">
+    <nav className=" w-full flex justify-between items-center md:p-5 shadow-sm border-b border-gray-200 ">
       <div className="flex items-center md:gap-4 gap-0 ">
-        <IoColorPalette className="text-purple-600 dark:text-purple-400 md:w-10 w-5 md:h-10 h-4" />
-        <span className=" flex font-bold lg:text-2xl md:text-xl sm:text-lg text-[9px] text-gray-700 dark:text-white ">
+        <IoColorPalette className="text-purple-600 dark:text-purple-400 md:w-10 w-5 h-10" />
+        <span className=" flex font-bold lg:text-2xl md:text-xl sm:text-lg text-[10px] text-gray-700 dark:text-white ">
           ColorVerse
         </span>
       </div>
 
       <a
-        className={` font-medium lg:text-lg md:text-md sm:text-sm text-[6px] cursor-pointer text-gray-700 dark:text-white hover:scale-105 transition duration-200 active:scale-100 ${location.pathname === "/" ? "border-b border-black dark:border-white" : ""} `}
+        className={` font-medium lg:text-lg md:text-md sm:text-sm text-[8px] cursor-pointer text-gray-700 dark:text-white hover:scale-105 transition duration-200 active:scale-100 ${location.pathname === "/" ? "border-b border-black dark:border-white" : ""} `}
         onClick={() => navigate("/")}
       >
         Home
       </a>
       <a
-        className={` font-medium lg:text-lg md:text-md sm:text-sm text-[6px] cursor-pointer text-gray-700 dark:text-white hover:scale-105 transition duration-200 active:scale-100 ${location.pathname === "/categories" ? "border-b border-black dark:border-white" : ""} `}
+        className={` font-medium lg:text-lg md:text-md sm:text-sm text-[8px] cursor-pointer text-gray-700 dark:text-white hover:scale-105 transition duration-200 active:scale-100 ${location.pathname === "/categories" ? "border-b border-black dark:border-white" : ""} `}
         onClick={() => navigate("/categories")}
       >
         Palettes
       </a>
       <a
-        className={` font-medium lg:text-lg md:text-md sm:text-sm text-[6px] cursor-pointer text-gray-700 dark:text-white hover:scale-105 transition duration-200 active:scale-100 ${location.pathname === "/favorites" ? "border-b border-black dark:border-white" : ""} `}
+        className={` font-medium lg:text-lg md:text-md sm:text-sm text-[8px] cursor-pointer text-gray-700 dark:text-white hover:scale-105 transition duration-200 active:scale-100 ${location.pathname === "/favorites" ? "border-b border-black dark:border-white" : ""} `}
         onClick={() => navigate("/favorites")}
       >
         Favorites
       </a>
 
-      <div className=" flex items-center border border-gray-200 md:px-5 px-1 ml- py-1 md:gap-3 gap-2 rounded-xl lg:w-[400px] md:w-[280px] w-[130px] ">
-        <IoSearch className="text-black dark:text-white md:w-[20px] w-[6px] sm:ml-0 ml-1 md:h-[20px] h-[6px] " />
+      <div className=" flex items-center border border-gray-200 md:px-5 px-1 sm:py-1 gap-2 sm:rounded-xl rounded-lg lg:w-[400px] md:w-[280px] w-[110px] ">
+        <IoSearch className="text-black dark:text-white sm:ml-0 ml-1 shrink-0 sm:w-4 sm:h-4 w-2 h-2 " />
         <input
           type="text"
           placeholder="Search Categories..."
